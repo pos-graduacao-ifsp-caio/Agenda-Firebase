@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="br.edu.ifspsaocarlos.agendafirebase.activity.MainActivity">
+    <item
+        android:id="@+id/pesqContato"
+        app:showAsAction="ifRoom"
+        android:title="@string/nome_do_contato"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        />
+    <item
+        android:id="@+id/menuItem_todos"
+        android:title="@string/todos"/>
+    <item
+        android:id="@+id/menuItem_amigos"
+        android:title="@string/amigos"/>
+    <item
+        android:id="@+id/menuItem_familia"
+        android:title="@string/familia"/>
+    <item
+        android:id="@+id/menuItem_trabalho"
+        android:title="@string/trabalho"/>
+    <item
+        android:id="@+id/menuItem_outros"
+        android:title="@string/outros"/>
+
+ </menu>
+
